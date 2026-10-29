@@ -216,9 +216,6 @@ ApplicationWindow {
     required property string sourceBaseName
     property bool checked
 
-    // Component.onCompleted: {
-    //   console.log("SwitchImage sourceBaseName: " + sourceBaseName + ", checked: " + checked);
-    // }
     source: `assets/${sourceBaseName}${checked ? "-Checked" : ""}.png`
   }
 
